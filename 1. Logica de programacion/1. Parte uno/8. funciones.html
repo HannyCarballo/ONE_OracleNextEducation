@@ -4,12 +4,16 @@
     function saltarLinea(){
         document.write("<br>");
     }
+
+    function imprimir(texto){
+        document.write(texto);
+        saltarLinea();
+    }
+
+    imprimir("Hola amigos");
     var anio = 2022;
-    document.write("Marisol tiene "+(anio-2002)+" años");
-    saltarLinea();
-    document.write("Rubi tiene "+(anio-2004)+" años");
-    saltarLinea();
-    document.write("Ana tiene "+(anio-1997)+"años");
-    saltarLinea();
+    imprimir("Marisol tiene "+(anio-2002)+" años");
+    imprimir("Rubi tiene "+(anio-2004)+" años");
+    imprimir("Ana tiene "+(anio-1997)+"años");
     
 </script>
