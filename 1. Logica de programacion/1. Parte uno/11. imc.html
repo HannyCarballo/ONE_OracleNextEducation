@@ -10,13 +10,11 @@
         saltarLinea();
     }
 
-    function calcularIMC(peso,altura){
-        var imc = peso/(altura*altura);
-        return(imc);
+    function calcularIMC(peso1,altura1,nombre1,peso2,altura2,nombre2){
+        var imc1 = peso1/(altura1*altura1);
+        var imc2 = peso2/(altura2*altura2);
+        imprimir("El promedio del IMC de " + nombre1 + " y  de " + nombre2 + " es " + ((imc1+imc2)/2));
     }
 
-    var peso = 58;
-    var altura = 1.63;
-    var imc = calcularIMC(peso,altura);
-    imprimir("El IMC de Hanny es de " + imc);
+    var imcHan = calcularIMC(58,1.63,"Hanny",51,1.58,"Araceli");
 </script>
