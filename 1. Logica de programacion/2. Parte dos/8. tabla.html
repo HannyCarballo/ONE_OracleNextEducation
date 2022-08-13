@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<h1>TABLA DE MULTIPLICAR</h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var num = 1;
+    var usuario = parseInt(prompt("Ingresa un número del 1 al 10"));
+
+    imprimir("While");
+    while(num<=10){
+        imprimir(num*usuario);
+        num++;
+    }
+
+    imprimir("For");
+    for(var num=1;num<=10;num++){
+        imprimir(num*usuario);
+    }
+
+</script>
