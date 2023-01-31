@@ -30,6 +30,10 @@ em strong{
     background: #FFFFFF;
 }
 
+h2{
+    text-align: center;
+}
+
 .items{
     font-style: italic;
 }
