@@ -8,6 +8,7 @@ body{
 
 .principal{
     background: #cccccc;
+    padding: 20px;
 }
 
 h1{
@@ -28,6 +29,7 @@ em strong{
 
 .diferenciales{
     background: #FFFFFF;
+    padding: 30px;
 }
 
 h2{
