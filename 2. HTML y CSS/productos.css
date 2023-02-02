@@ -4,6 +4,7 @@ header{
 
 .caja{
     width: 940px;
+    position: relative;
 }
 
 nav{
