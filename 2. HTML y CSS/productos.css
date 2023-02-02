@@ -45,3 +45,12 @@ nav a{
     font-size: 30px;
     font-weight: bold;
 }
+
+.producto_descripcion{
+    font-size: 18px;
+}
+
+.producto_precio{
+    font-size: 30px;
+    font-weight: bold;
+}
