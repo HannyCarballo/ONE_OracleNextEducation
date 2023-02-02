@@ -36,6 +36,8 @@ nav a{
 .productos li{
     display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
 }
 
 .productos h2{
