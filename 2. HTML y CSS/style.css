@@ -123,3 +123,15 @@ p{
 form p{
     color: blue;
 }
+
+.test{
+    color:yellow;
+}
+
+p.test{
+    color:orange;
+}
+
+#test{
+    color:pink;
+}
