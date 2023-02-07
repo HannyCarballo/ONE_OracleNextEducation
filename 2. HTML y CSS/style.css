@@ -124,4 +124,5 @@ form label, form legend{
     color: #FFFFFF;
     background: orange;
     border: none;
+    border-radius: 5px;
 }
