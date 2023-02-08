@@ -126,3 +126,7 @@ form label, form legend{
     border: none;
     border-radius: 5px;
 }
+
+.enviar:hover{
+    background: darkorange;
+}
