@@ -132,4 +132,5 @@ form label, form legend{
 .enviar:hover{
     background: darkorange;
     transform: scale(1.2);
+    transform: rotate(70deg);
 }
